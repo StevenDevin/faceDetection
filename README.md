@@ -14,8 +14,8 @@ https://www.python.org/downloads/release/python-3100/
 
 
 2. CLONE REPOSITORY
-git clone https://github.com/USERNAME/NAMA-REPO.git
-cd NAMA-REPO
+git clone https://github.com/StevenDevin/faceDetection
+cd faceDetection
 
 3. BUAT VIRTUAL ENVIRONMENT
 python -m venv fr_env
