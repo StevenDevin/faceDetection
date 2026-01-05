@@ -2,9 +2,7 @@
 
 Panduan singkat untuk instalasi, setup environment, dan menjalankan program.
 
-==================================================
 1. PRASYARAT
-==================================================
 - Python 3.10.x 
 - Webcam aktif
 
@@ -14,21 +12,17 @@ python --version
 Jika bukan 3.10, install dari:
 https://www.python.org/downloads/release/python-3100/
 
-==================================================
+
 2. CLONE REPOSITORY
-==================================================
 git clone https://github.com/USERNAME/NAMA-REPO.git
 cd NAMA-REPO
 
-==================================================
 3. BUAT VIRTUAL ENVIRONMENT
-==================================================
 python -m venv fr_env
 fr_env\Scripts\activate
 
-==================================================
+
 4. INSTALL DEPENDENCY
-==================================================
 Upgrade pip:
 pip install --upgrade pip
 
@@ -40,9 +34,8 @@ VC_redist.x64
 Install semua library:
 pip install -r requirements.txt
 
-==================================================
+
 5. SIAPKAN DATASET WAJAH
-==================================================
 Buat folder:
 dataset_wajah
 
@@ -55,21 +48,18 @@ Catatan:
 - JPG / PNG
 - Wajah harus jelas
 
-==================================================
+
 6. JALANKAN PROGRAM
-==================================================
 python main.py
 
-==================================================
+
 7. KONTROL PROGRAM
-==================================================
 Q  : Keluar
 R  : Reset absensi
 
-==================================================
+
 8. TROUBLESHOOTING
-==================================================
-Python masih 3.11:
+Jika python masih 3.11:
 py -3.10 main.py
 
 
