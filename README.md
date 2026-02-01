@@ -32,7 +32,7 @@ dlib-19.22.99-cp310-cp310-win_amd64
 VC_redist.x64
 
 Install semua library:
-pip install -r requirements.txt
+pip install -r requirement.txt
 
 
 5. SIAPKAN DATASET WAJAH
