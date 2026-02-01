@@ -14,8 +14,8 @@ https://www.python.org/downloads/release/python-3100/
 
 
 2. CLONE REPOSITORY
-git clone https://github.com/StevenDevin/faceDetection
-cd faceDetection
+- git clone https://github.com/StevenDevin/faceDetection
+- cd faceDetection
 
 3. BUAT VIRTUAL ENVIRONMENT
 python -m venv fr_env
@@ -23,25 +23,21 @@ fr_env\Scripts\activate
 
 
 4. INSTALL DEPENDENCY
-Upgrade pip:
-pip install --upgrade pip
-
-Install (ada di repo setelah download tinggal double click dan ikuti proses instalasi):
-cmake-4.2.1-windows-x86_64
-dlib-19.22.99-cp310-cp310-win_amd64
-VC_redist.x64
+- Install (ada di repo setelah download tinggal double click dan ikuti proses instalasi):
+- cmake-4.2.1-windows-x86_64
+- dlib-19.22.99-cp310-cp310-win_amd64
+- VC_redist.x64
 
 Install semua library:
-pip install -r requirement.txt
+- pip install -r requirement.txt
 
 
 5. SIAPKAN DATASET WAJAH
-Buat folder:
+- Buat folder:
 dataset_wajah
 
-Masukkan foto wajah:
+- Masukkan foto wajah:
 nama_01.jpg
-nama_02.jpg
 
 Catatan:
 - 1 wajah per foto
@@ -50,7 +46,7 @@ Catatan:
 
 
 6. JALANKAN PROGRAM
-python main.py
+- python main.py
 
 
 7. KONTROL PROGRAM
